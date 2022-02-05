@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Gifffer from 'gifffer';
 
-const RootElement = ({ children }) => {
+const PageElement = ({ children }) => {
   useEffect(() => {
     Gifffer();
   }, []);
@@ -9,4 +9,4 @@ const RootElement = ({ children }) => {
   return <>{children}</>;
 };
 
-export default RootElement;
+export default PageElement;
