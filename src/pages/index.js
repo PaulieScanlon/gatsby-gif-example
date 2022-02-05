@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Gifffer from 'gifffer';
 
 import lemon from '../gifs/lemon.gif';
 
 const Page = () => {
+  useEffect(() => {
+    window.onload = function () {
+      Gifffer();
+    };
+  });
+
   return (
     <div>
-      <img src={lemon} alt="A Lemon" />
+      <img data-gifffer={lemon} alt="A Lemon" />
     </div>
   );
 };

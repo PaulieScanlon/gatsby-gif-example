@@ -4766,6 +4766,11 @@ get-value@^2.0.3, get-value@^2.0.6:
   resolved "https://registry.yarnpkg.com/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
   integrity sha1-3BXKHGcjh8p2vTesCjlbogQqLCg=
 
+gifffer@^1.5.4:
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/gifffer/-/gifffer-1.5.4.tgz#f930cf103bb061bf1410e1856fc7d91bc250227b"
+  integrity sha512-JWpr4eKta98gtH3xeCuIEQY9XZkMgpx5dJz+wb1qZV0bv2+mG07fffdnV/sb+JGR6ISUP19e43yjG8vrpBoitw==
+
 git-up@^4.0.5:
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/git-up/-/git-up-4.0.5.tgz#e7bb70981a37ea2fb8fe049669800a1f9a01d759"
