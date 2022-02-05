@@ -3,9 +3,7 @@ import Gifffer from 'gifffer';
 
 const RootElement = ({ children }) => {
   useEffect(() => {
-    window.onload = function () {
-      Gifffer();
-    };
+    Gifffer();
   }, []);
 
   return <>{children}</>;
