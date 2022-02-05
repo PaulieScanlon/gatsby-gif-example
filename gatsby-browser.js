@@ -1,0 +1,7 @@
+import React, { useEffect } from 'react';
+
+import RootElement from './src/components/root-element';
+
+export const wrapRootElement = ({ element }) => {
+  return <RootElement>{element}</RootElement>;
+};
