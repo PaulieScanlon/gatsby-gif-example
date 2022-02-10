@@ -5,3 +5,16 @@
 .gatsby-image {
   border: 1px solid blue;
 }
+
+.center-me {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  place-items: center;
+  place-content: center;
+}
+
+.center-me > .gatsby-image-wrapper {
+  width: 400px;
+  height: 400px;
+}

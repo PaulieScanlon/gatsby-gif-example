@@ -18,7 +18,7 @@ const Page = () => {
   `);
 
   return (
-    <div>
+    <div className="center-me">
       <GatsbyImage className="gatsby-image" image={getImage(gatsbyImageData)} alt="An Orange" />
     </div>
   );
